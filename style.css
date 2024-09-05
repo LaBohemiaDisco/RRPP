@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+
+h1,h2{
+    color: #eee;
+}
+.op{
+    background-image: url(/fotos/DSC_3458\ \(1\).jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.section{
+    background: linear-gradient(
+        to bottom, 
+        #222d 0% 17%, 
+        #3332 26% 77%, 
+        #222d 86% 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+.section__titulo{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.section__subtitulo{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*---------------     GRID    -------------------*/
+
+.box {
+    background-color: #2229;
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+    border-radius: 20px;
+
+}
+
+.grid-conteiner{
+    width: 95%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.grid-item{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    background-color: #2229;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+
+}
+
+/*---------- GRID ITEM ------------*/
+
+.grid-item__RRPP-titulo{
+    margin: 0;
+    width: 100%;
+    padding: 4px 0;
+    background-color: #eee;
+}
+.grid-item__RRPP-subtitulo{
+    margin: 0;
+    width: 100%;
+    padding: 4px 0;
+    background-color: #2229;
+    color: #eee;
+}
+
+
+.grid-item__RRPP-foto{
+    width: 100px;
+    border-radius: 50px;
+    margin: 5px;
+    box-shadow: 0 0 15px #1116;
+}
+
+a{
+    text-decoration: none;
+}
+
+.grid-item__instagram-conteiner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    align-items: center;
+    margin: 5px 0;
+}
+.grid-item__instagram-conteiner img{
+    max-width: 30px;
+    height: 30px;
+}
+
+.grid-item__whatsapp-conteiner img{
+    max-width: 30px;
+    height: 30px;
+}
+
+.grid-item__whatsapp-conteiner{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    align-items: center;
+    margin: 5px 0;
+}
+
+
+.grid-item__texto-instagram {
+    text-decoration: none;
+    color: #eee;
+    font-size: 0.75em;
+    margin: 0;
+}
+.grid-item__texto-whatsapp {
+    text-decoration: none;
+    color: #eee;
+    font-size: 0.85em;
+    margin: 0;
+}
+
+
+.grid-item__img-whatsapp{
+    max-width: 30px;
+    height: 30px;
+    flex-grow: 1;
+}
+
