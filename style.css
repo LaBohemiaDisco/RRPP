@@ -117,7 +117,7 @@ a{
 .grid-item__instagram-conteiner{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 2px;
     align-items: center;
@@ -136,7 +136,7 @@ a{
 .grid-item__whatsapp-conteiner{
     width: 100vw;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 2px;
     align-items: center;
